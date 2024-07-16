@@ -8,8 +8,8 @@ Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
 ... and WCH LINK programmer<br><br>
 <b>RAM usage:</b><br>
 <ul>
-<li></li>0x20000700-0x2000077f input buffer
-<li></li>0x20000780-0x200007ff stack
+<li>0x20000700-0x2000077f input buffer</li>
+<li>0x20000780-0x200007ff stack</li>
 </ul>
 <b>Register usage:</b><br>
 a0=General purpose and used as a paramter for ECHO and p2hex<br>
