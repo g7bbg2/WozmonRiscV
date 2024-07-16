@@ -2,7 +2,7 @@
 Wozmon ported to  CH32V003 in RiscV assembler<br><br>
 
 Coded in raw CH32v Risc assembly language this is a port of
-Wozmon.asm as found on the Web<br><br><br>
+Wozmon.asm as found on the Web<br><br>
 
 Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
 ... and WCH LINK programmer<br><br>
