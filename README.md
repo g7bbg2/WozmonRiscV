@@ -5,7 +5,7 @@ Coded in raw CH32v Risc assembly language this is a port of
 Wozmon.asm as found on the Web<br><br><br>
 
 Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
-... and WCH LINK programmer<b><b>
+... and WCH LINK programmer<br><br>
 Register usage as follows:<br>
 a0=Genral pupose and used as a paramter for ECHO and p2hex<br>
 a1=genral pupose and for comparison<br>
