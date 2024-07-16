@@ -9,7 +9,7 @@ Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
 <b>RAM usage:</b><br>
 0x20000700-0x2000077f input buffer<br>
 0x20000780-0x200007ff stack<br><br>
-<b>Register usage as follows:</b><br>
+<b>Register usage:</b><br>
 a0=General purpose and used as a paramter for ECHO and p2hex<br>
 a1=genral pupose and for comparison<br>
 a5=Usart base address for ECHO<br>
