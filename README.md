@@ -27,7 +27,9 @@ Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
 <b> Console is on internal USART 8,N,1 at 115200 baud<br>
 Assumes terminal echoes a line feed on reception of a carriage return</b><br><br>
 <b>Files:</b><br>
-<b>WozMonRiscV.S</b> assembler source code<br>
-<b>a.sh</b> is a shell script to build without flashing<br>
-<b>b.sh</b> is a shell script to build and flash to a CH32V003 uses minichlink<br>
-<b>ch32v003.ld</b> is the script for the loader<br>
+<ul>
+<li><b>WozMonRiscV.S</b> assembler source code</li>
+<li><b>a.sh</b> is a shell script to build without flashing</li>
+<li><b>b.sh</b> is a shell script to build and flash to a CH32V003 uses minichlink</li>
+<li><b>ch32v003.ld</b> is the script for the loader</li>
+</ul>
