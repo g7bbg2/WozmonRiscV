@@ -12,15 +12,17 @@ Uses riscv64-unknown-elf tools and minichlink from ch32vfun by Cnlohr<br>
 <li>0x20000780-0x200007ff stack</li>
 </ul>
 <b>Register usage:</b><br>
-a0=General purpose and used as a paramter for ECHO and p2hex<br>
-a1=genral pupose and for comparison<br>
-a5=Usart base address for ECHO<br>
-tp=Buffer text pointer<br>
-t0=L and H the accumulator for hex numbers<br>
-t1=TSL STH the address used as a store destination<br>
-t2=XAMH XAML the Examine ptr<br>
-s0=Mode this is null .'. or ':' used for deciding whar to do :-<br>
-s1=YSAV the text pointer is saved here to flag whether any hex digts have been collected<br><br>
+<ol>
+<li>a0=General purpose and used as a paramter for ECHO and p2hex</li>
+<li>a1=genral pupose and for comparison</li>
+<li>a5=Usart base address for ECHO</li>
+<li>tp=Buffer text pointer</li>
+<li>t0=L and H the accumulator for hex numbers</li>
+<li>t1=TSL STH the address used as a store destination</li>
+<li>t2=XAMH XAML the Examine ptr</li>
+<li>s0=Mode this is null .'. or ':' used for deciding whar to do :-</li>
+<li>s1=YSAV the text pointer is saved here to flag whether any hex digts have been collected</li>
+</ol>s1=YSAV the text pointer is saved here to flag whether any hex digts have been collected<br><br>
 <b> Console is on internal USART 8,N,1 at 115200 baud<br>
 Assumes terminal echoes a line feed on reception of a carriage return</b><br><br>
 <b>Files:</b><br>
