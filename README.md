@@ -19,7 +19,8 @@ t1=TSL STH the address used as a store destination<br>
 t2=XAMH XAML the Examine ptr<br>
 s0=Mode this is null .'. or ':' used for deciding whar to do :-<br>
 s1=YSAV the text pointer is saved here to flag whether any hex digts have been collected<br><br>
-
+<b> Console is on internal USART 8,N,1 at 115200 baud<br>
+Assumes terminal echoes a line feed on reception of a carriage return</b><br><br>
 <b>WozMonRiscV.S assembler source code</b><br>
 <b>.sh is a shell script to build without flashing</b><br>
 <b>b.sh is a shell script to build and flash to a CH32V003 uses minichlink</b><br>
